@@ -1,4 +1,5 @@
 const card = document.querySelectorAll('.card');
+console.log(card);
 const array1 = Array.prototype.slice.call(card);
 array1.forEach(element => {
     element.addEventListener("click", () => {
@@ -10,22 +11,15 @@ array1.forEach(element => {
             const detail = document.querySelector('#details');
             const response = await fetch('scripts/books.json');
             const booklist = await response.json();
-            const name = booklist[current].name;
-            const author = booklist[current].author;
-            const edition = booklist[current].edition;
-            const picture = booklist[current].picture;
-            const price = booklist[current].price;
-            const owner = booklist[current].by;
-            const contact = booklist[current].contact;
-            let imgformat = `<img src="${picture}"`;
+            let imgformat = `<img src="${booklist[current].picture}"`;
             img.innerHTML += imgformat;
             let detfor = `
-            <h1>${name}</h1>
-            <p>Author: ${author}</p>
-            <p>Edition: ${edition}</p>
-            <p>Price: ${price}</p>
-            <p>Posted by: ${owner}</p>
-            <p>Contact details: ${contact}</p>
+            <h1>${booklist[current].name}</h1>
+            <p>Author: ${booklist[current].author}</p>
+            <p>Edition: ${booklist[current].edition}</p>
+            <p>Price: ${booklist[current].price}</p>
+            <p>Posted by: ${booklist[current].by}</p>
+            <p>Contact details: ${booklist[current].contact}</p>
             `;
             detail.innerHTML += detfor;
         }
