@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Books buddy</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gwendolyn&family=Smooch&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="header">
+            <img src="assets/logo1.png" class="logo">
+            <span>Books Buddy</span>
+            <span id="login"><a href="">Login</a></span>
+            <input placeholder="Search your book" id="search">
+        </div>
+        <div class="front">
+            <div>
+                <h1>Your Book Search Buddy</h1>
+                <p>Book searching can be tough. Wanna know what makes its easy?</p>
+                <strong><p>A place to start!</p></strong>
+                <p>At Books Buddy, you can not only look for your books but can post ads about your own old spare books</p>
+            </div>
+            <img src="assets/book1.png">
+        </div>
+        <div class="heading"></div>
+        <div class="main">
+            <div class="sidebar">
+                <p>Filter</p>
+                <div>
+                    <label for="sort">Sort: </label>
+                    <select name="sort" id="sort">
+                        <option value="name">Name</option>
+                        <option value="author">Author</option>
+                    </select><br>
+                </div>
+                <div>
+                    <label for="order">Order: </label>
+                    <select name="order" id="order">
+                        <option value="increase">Increasing</option>
+                        <option value="decrease">Decreasing</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="price">Price: </label>
+                    <select name="price" id="price">
+                        <option value="free">Free</option>
+                        <option value="1">100-250</option>
+                        <option value="1">250-500</option>
+                    </select>
+                </div>
+            </div>
+            <div id="store">
+            
+            </div>
+        </div>
+        <button id="show">More</button>
+        <script src="scripts/script.js"></script>
+        <script src="scripts/display.js" defer></script>
+    </body>
+</html>

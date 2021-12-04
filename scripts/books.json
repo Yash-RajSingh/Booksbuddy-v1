@@ -1,0 +1,232 @@
+[
+    {
+        "id": 0,
+        "name": "Let us Python",
+        "author": "Yashwant Kanetkar",
+        "editon": 14,
+        "picture": "assets/b-image/b01.jpeg",
+        "price": "free",
+        "by":"User",
+        "contact": 9898989898
+    },
+    {
+        "id": 1,
+        "name": "Computer science with Python Class 11",
+        "author": "Sumita Arora",
+        "editon": 12,
+        "picture": "assets/b-image/b05.jpg",
+        "price": "free",
+        "by":"User",
+        "contact": 7878787878
+    },
+    {
+        "id": 2,
+        "name": "Let us C",
+        "author": "Yashwant Kanetkar",
+        "editon": 12,
+        "picture": "assets/b-image/b02.jpg",
+        "price": "₹ 200",
+        "by":"User",
+        "contact": 7676767676
+    },
+    {
+        "id": 3,
+        "name": "Let us C++",
+        "author": "Yashwant Kanetkar",
+        "editon": 15,
+        "picture": "assets/b-image/b03.jpg",
+        "price": "free",
+        "by":"User",
+        "contact": 6969696969
+    },
+    {
+        "id": 4,
+        "name": "Computer science with Python Class 11",
+        "author": "Sumita Arora",
+        "editon": 13,
+        "picture": "assets/b-image/b04.jpg",
+        "price": "₹ 300",
+        "by":"User",
+        "contact": "user@gmail.com"
+    },
+    {
+        "id": 5,
+        "name": "Computer applications Class 9",
+        "author": "Sumita Arora",
+        "editon": 11,
+        "picture": "assets/b-image/b06.jpg",
+        "price": "₹ 150",
+        "by":"User",
+        "contact": 8585858585
+    },
+    {
+        "id": 6,
+        "name": ".NET 4.5 Programming black book",
+        "author": "Steven Holzner",
+        "editon": 13,
+        "picture": "assets/b-image/b07.jpg",
+        "price": "free",
+        "by":"User",
+        "contact": 7878787878
+    },
+    {
+        "id": 7,
+        "name": "Data structures, algorithms and applications in JAVA",
+        "author": "Sartaj Sahni",
+        "editon": 10,
+        "picture": "assets/b-image/b08.jpg",
+        "price": "free",
+        "by":"User",
+        "contact": "user@gmail.com"
+    },
+    {
+        "id": 8,
+        "name": "Lost in space",
+        "author": "Yash raj singh",
+        "editon": 1,
+        "picture": "assets/b-image/b09.jpg",
+        "price": "free",
+        "by":"User",
+        "contact": "rahul@gmail.com"
+    },
+    {
+        "id": 9,
+        "name": "Silent passengers",
+        "author": "Sohil khanduja",
+        "editon": 1,
+        "picture": "assets/b-image/b10.jpg",
+        "price": "₹ 350",
+        "by":"User",
+        "contact": 9292929292
+    },
+    {
+        "id": 10,
+        "name": "Powerful human confident state",
+        "author": "Yashneet Kalra",
+        "editon": 1,
+        "picture": "assets/b-image/b11.jpg",
+        "price": "free",
+        "by":"User",
+        "contact": "topper@gmail.com"
+    },
+    {
+        "id": 11,
+        "name": "Orphan",
+        "author": "Peter parker",
+        "editon": 1,
+        "picture": "assets/b-image/b12.jpg",
+        "price": "free",
+        "by":"User",
+        "contact": 8282828282
+    },
+    {
+        "id": 12,
+        "name": "The shot",
+        "author": "Clark kent",
+        "editon": 1,
+        "picture": "assets/b-image/b13.jpg",
+        "price": "free",
+        "by":"User",
+        "contact": 7272727272 
+    },
+    {
+        "id": 13,
+        "name": "The dark knight",
+        "author": "Bruce wayne",
+        "editon": 1,
+        "picture": "assets/b-image/b14.jpg",
+        "price": "₹ 200",
+        "by":"User",
+        "contact": "rohan@gmail.com" 
+    },
+    {
+        "id": 14,
+        "name": "The forgotten detective",
+        "author": "Sherlock holmes",
+        "editon": 1,
+        "picture": "assets/b-image/b15.jpg",
+        "price": "₹ 250",
+        "by":"User",
+        "contact": 9898989898
+    },
+    {
+        "id": 15,
+        "name": "The storm",
+        "author": "Rocky",
+        "editon": 1,
+        "picture": "assets/b-image/b16.jpg",
+        "price": "free",
+        "by":"User",
+        "contact": 7878787878
+    },
+    {
+        "id": 16,
+        "name": "The business bible",
+        "author": "Warren buffet",
+        "editon": 1,
+        "picture": "assets/b-image/b17.jpg",
+        "price": "free",
+        "by":"User",
+        "contact": "ram@gmail.com"
+    }, 
+    {
+        "id": 17,
+        "name": "The best annual plan",
+        "author": "Hannibal smith",
+        "editon": 1,
+        "picture": "assets/b-image/b18.jpg",
+        "price": "free",
+        "by":"User",
+        "contact": "sohil@gmail.com"
+    }, 
+    {
+        "id": 18,
+        "name": "Aim higher",
+        "author": "Sandeep maheshwari",
+        "editon": 1,
+        "picture": "assets/b-image/b19.jpg",
+        "price": "free",
+        "by":"User",
+        "contact": 9090909090
+    },
+    {
+        "id": 19,
+        "name": "Keep stepping up",
+        "author": "Justin hammer",
+        "editon": 1,
+        "picture": "assets/b-image/b20.jpg",
+        "price": "₹ 300",
+        "by":"User",
+        "contact": "sammy@gmail.com"
+    },
+    {
+        "id": 20,
+        "name": "Rebel leadership",
+        "author": "Jason todd",
+        "editon": 1,
+        "picture": "assets/b-image/b21.jpg",
+        "price": "free",
+        "by":"User",
+        "contact": 7070707070
+    },
+    {
+        "id": 21,
+        "name": "When love takes over",
+        "author": "Romeo",
+        "editon": 1,
+        "picture": "assets/b-image/b22.jpg",
+        "price": "free",
+        "by":"User",
+        "contact": "seller@gmail.com"
+    },
+    {
+        "id": 22,
+        "name": "Vow of silence",
+        "author": "Snake eyes",
+        "editon": 1,
+        "picture": "assets/b-image/b23.jpg",
+        "price": "free",
+        "by":"User",
+        "contact": 9191919191
+    }
+]

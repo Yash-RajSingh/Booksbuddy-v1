@@ -1,0 +1,120 @@
+:root{
+    --lightest-purple: #dfc0eb;
+    --light-purple: #d5a6e6;
+    --mid-purple: #cd8de5;
+    --dark-purple: #a86cc1;
+    --darkest-purple: #89609e;
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #ffffff 65%, #8415ec 35%);
+}
+/* -----HEADER STYLING------ */
+.header{
+    width: 100%;
+    height: 4rem;
+    font-size: 3rem;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin: 0.5% 0 0 5%;
+}
+
+#search{
+    height: 40%;
+    border-radius: 10px;
+    border: 1.5pt solid black;
+    float: right;
+    background-color: aliceblue;
+    margin: 1% 1% 0 0;
+}
+#login{
+    font-size: 1.5rem;
+    float: right;
+    margin: 1% 3% 0 0;
+    border-radius: 50%;
+}
+#login a{
+    text-decoration: none;
+    color: white;
+}
+/* ---------FRONT STYLING--------- */
+.front{
+    margin: 0 auto;
+    width: 93%;
+    height: 70vh;
+    color: var(--darkest-purple);
+    display: flex;
+    flex-wrap: wrap;
+}
+.front h1{
+    color: var(--dark-purple);
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+}
+.front div{
+    color: black;
+    width: 60%;
+    height: max-content;
+    text-align: center;
+    margin: auto 3%;
+    font-size: 20px;
+}
+.front img{
+    margin: auto auto;
+    width: 25vw;
+    height: 22vw;
+}
+
+/* -------SIDERBAR STYLING--------- */
+.sidebar{
+    height: 100;
+    width: 15%;
+    padding: 10px;
+}
+.sidebar div{
+    padding: 5px;
+}
+
+
+.main{
+    display: flex;
+}
+
+
+#store{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin-top: 1%;
+    margin-left: 1%;
+    background-color: #c7cececb;
+    height: max-content;
+    width: 13rem;
+    text-align: center;
+}
+.card:hover{
+    background-color: #e8ededf0;
+}
+.bimg{
+    border-radius: 10px;
+    margin-top: 5%;
+    border: 2px solid black;
+}
+.sidebar label{
+    padding: 10px;
+}
+
+.heading{
+    padding: 15px;
+    width: 90%;
+    height: min-content;
+    font-size: 2rem;
+    margin: 0 0 0 5%;
+    text-decoration: underline;
+}
