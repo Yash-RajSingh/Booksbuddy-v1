@@ -33,7 +33,7 @@ const test = (id) => {
   const card = document.getElementById(`${id}`);
   localStorage.setItem("active", `${id}`);
   //let copied = card.innerHTML;
-  window.location.href = "/book.html";
+  window.location.href = "./book.html";
   //localStorage.setItem("current", copied);
   //console.log(localStorage.getItem("current"));
   return card;
