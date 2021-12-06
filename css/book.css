@@ -41,10 +41,39 @@ body{
     color: white;
 }
 .dcard{
+    width: 80vw;
+    height: 96vh;
     display: flex;
-    margin: auto auto;
+    background-color: #dadada;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 3% auto;
+}
+.picture{
+    width: 23rem;
+    margin: 11% 0 0 20%;
 }
 .details{
-    text-align: center;
-    
+    border: 2px solid black;
+    margin-top: 5%;
+    margin-left: 30%;
+
+}
+
+.bimg{
+    width: 23rem;
+    height: 30rem;
+    box-shadow: 10px -5px 20px #000000;
+}
+.card{
+    border-radius: 20px;
+    padding: 10px;
+    width: 35rem;
+    height: 30rem;
+    font-size: 2rem;
+    margin-left: 20%;
+    margin-top: 1%; 
+}
+.head{
+    padding: 20px;
 }
